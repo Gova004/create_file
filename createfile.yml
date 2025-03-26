@@ -6,8 +6,3 @@
       file:
         path: /tmp/file.txt
         state: touch
-
-    - name: Write content to the file
-      copy:
-        dest: /home/gova/file.txt
-        content: "This is the content of the file."
