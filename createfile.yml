@@ -4,5 +4,5 @@
   tasks:
     - name: Ensure the file is present
       file:
-        path: /tmp/file.txt
+        path: /tmp/file786.txt
         state: touch
